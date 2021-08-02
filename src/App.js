@@ -22,7 +22,7 @@ function App() {
   const fetchData = async () => {
     //Use city to get long and lat
     const cityResponse = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${APIKEY}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${APIKEY}`
     )
     const result = await cityResponse.json()
     console.log(result)
