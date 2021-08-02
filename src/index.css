@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+}
+a{
+  color: #4f2b4f;
+}
+.nav {
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.nav-link {
+  padding: .5rem 7.4rem;
+}
+.app {
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.search {
+  padding: 20px 0;
+}
+
+.search input {
+  width: 80%;
+  margin-right: 2%;
+  padding: 2.5px;
+}
+
+.search button {
+  background-color: green;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5%;
+  width: 100px;
+}
+
+.home {
+  padding: 20px 0;
+}
+.location {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.time {
+  color: grey;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+  
+}
+.max {
+  color: black;
+  font-weight: bold;
+}
+.min {
+  color: gray; 
+}
+img {
+  margin-right: 80px;
+}
+.day {
+  display: flex;
+  justify-content:space-around;
+}
+.week-div {
+  padding: 20px;
+}
+.col1 {
+  margin-right: 100px;
+
+}
+hr {
+  border: none;
+  height: 1px;
+  background: #454545
+}
+p{
+  margin: 0;
+}
